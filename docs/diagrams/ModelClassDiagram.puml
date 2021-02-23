@@ -49,8 +49,7 @@ Person *--> Address
 Person *--> "*" Tag
 
 Name -[hidden]right-> Phone
-Phone -[hidden]right-> Address
-Address -[hidden]right-> Email
+Phone -[hidden]right-> Email
 
 ModelManager ----->" ~* filtered list" Person
 @enduml
